@@ -1,0 +1,47 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./styles/globals.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+/* @import './fonts.css'; */
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+  }
+
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./styles/layout.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.layout_body__qd6bU{
+    overflow: hidden;
+    display: flex;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+}
+
+.layout_image__kwPdb{
+    object-fit:cover;
+    height: 100vh;
+    width: 100vw; 
+}
+#layout_image1__FyX49{
+    display: none;
+}
+#layout_image__kwPdb{
+    display: block;
+}
+
+@media(min-width: 750px){
+    #layout_image1__FyX49{
+        display: block;
+    }
+    #layout_image2__P_mz0{
+        display: none;
+    }
+}
